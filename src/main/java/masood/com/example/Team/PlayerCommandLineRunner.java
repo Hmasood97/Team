@@ -17,6 +17,6 @@ public class PlayerCommandLineRunner  implements CommandLineRunner {
         this.repository.save(new Player("Hisham", "Masood", 20, 10, 10, 75, 35, 45, "UNC", "5'7", 1 ));
         this.repository.save(new Player("Abroon", "Tariq", 15, 5, 7, 90, 55, 50, "UNC", "5,10", 0 ));
 
-        repository.findAll().forEach(System.out::println);/Users/hisham/client/src/index.css
+        repository.findAll().forEach(System.out::println);
     }
 }
